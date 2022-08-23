@@ -16,9 +16,6 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           
-          output_action: gist
-          committer_gist: 51ab22dac60a6a89448af48cbe267237
-          
           config_timezone: America/Denver
           
           plugin_achievements: yes
