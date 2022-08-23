@@ -14,7 +14,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          user: FayneAldan
+          output_action: gist
+          committer_gist: 51ab22dac60a6a89448af48cbe267237
+          
+          config_display: columns
           config_timezone: America/Denver
           
           plugin_achievements: yes
@@ -28,6 +31,6 @@ jobs:
           plugin_music_provider: lastfm
           plugin_music_token: 52ffa34ebbd200da17da5a6c3aef1b2e
           plugin_music_user: FayneAldan
-          plugin_music_mode: recent
+          plugin_music_mode: top
           
           plugin_topics: yes
