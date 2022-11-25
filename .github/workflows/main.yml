@@ -26,6 +26,7 @@ jobs:
           plugin_gists: yes
           
           plugin_languages: yes
+          plugin_languages_indepth: yes
           
           plugin_music: yes
           plugin_music_provider: lastfm
