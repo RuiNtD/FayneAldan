@@ -47,10 +47,12 @@ jobs:
       - name: Splatoon
         uses: lowlighter/metrics@latest
         with:
-          filename: splatoon.svg
+          filename: splatoon.png
           token: ${{ secrets.TOKEN }}
           output_action: gist
           committer_gist: $GIST
+
+          base: ""
 
           plugin_splatoon: yes
           plugin_splatoon_token: ${{ secrets.SPLATOON_TOKEN }}
