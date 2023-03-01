@@ -26,7 +26,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: America/Denver
           output_action: gist
-          committer_gist: $GIST
+          committer_gist: ${{ env.GIST }}
 
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -50,7 +50,7 @@ jobs:
           filename: splatoon.png
           token: ${{ secrets.TOKEN }}
           output_action: gist
-          committer_gist: $GIST
+          committer_gist: ${{ env.GIST }}
 
           base: ""
 
