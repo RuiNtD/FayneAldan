@@ -44,6 +44,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: splatoon.png
+          config_output: png
 
           base: ""
 
