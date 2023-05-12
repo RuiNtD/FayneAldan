@@ -1,1 +1,1 @@
-![Metrics](https://ruintd.github.io/github-metrics.svg)
+![Metrics](https://ruintd.github.io/metrics/github-metrics.svg)
